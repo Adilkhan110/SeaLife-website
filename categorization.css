@@ -1,0 +1,35 @@
+.c-image{
+    height: 180px;
+    padding-left: 30px;
+}
+
+.text-center {
+    text-transform: uppercase;
+}
+.header .navbar a{
+    text-decoration: none;
+}
+
+.header .logo {
+    text-decoration: none;
+}
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #74ebd5, #acb6e5);
+        
+      }
+
+
+      h1 {
+        text-align: center;
+        margin: 20px 0;
+        color: #0d6bc9;
+      }
+      
+      .container {
+        margin-top: 70px;
+        margin-bottom: 30px;
+      }

@@ -1,0 +1,11 @@
+#rr{
+    width: 300px;
+    margin-top: 50px;
+}
+P{
+    font-size: 24PX;
+    margin-top: 5px;
+}
+body{
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+}

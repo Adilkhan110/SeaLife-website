@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root{
+    --blue:#4CC9FE;
+}
+
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    text-transform: capitalize;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+}
+
+
+.about-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.card {
+    background-color: b; 
+    border-radius: 15px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card:hover {
+    transform: rotateY(15deg) rotateX(10deg);
+}
+
+.card img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+.card-content {
+    padding: 20px;
+    color: #333;
+}
+
+.card-content h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.card-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1rem;
+    color: #777;
+}
+
+.button-container {
+    text-align: center;
+  }
+  
+  .button-3d {
+    display: inline-block;
+    padding:  20px 30px;
+    font-size: 1.2;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: 300px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+  }
+  .button-3d:active {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    transform: translateY(4px);
+
+   
+  }
+  
+  .button-3d:hover {
+    background: linear-gradient(45deg, #2575fc, #6a11cb);
+  }
+  
+.heading{
+    text-align: center;
+    padding: 3.5rem;
+}
+.heading span{
+    font-size: 3.5rem;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    color: var(--bule);
+    border-radius: .5rem;
+    padding: 2rem 1rem;
+  padding: 10px;
+}
+.heading span.space{
+    background: none;
+}
